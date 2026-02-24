@@ -1,6 +1,5 @@
 package com.scaffold.controller;
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.scaffold.entity.User;
 import com.scaffold.service.UserService;
 import com.scaffold.util.Result;
