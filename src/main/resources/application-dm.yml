@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: dm.jdbc.driver.DmDriver
+      url: jdbc:dm://localhost:5236/TESTDB?schema=SYSDBA
+      username: SYSDBA
+      password: SYSDBA
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
