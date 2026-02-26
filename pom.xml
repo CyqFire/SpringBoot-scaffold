@@ -48,11 +48,16 @@
            <version>8.0.31</version>
             <scope>runtime</scope>
         </dependency>
-        <!--<dependency>
+
+        <!-- 达梦8数据库驱动 (本地jar包方式) -->
+        <dependency>
             <groupId>com.dameng</groupId>
             <artifactId>Dm8JdbcDriver18</artifactId>
-            <version>8.1.2.193</version>
-        </dependency>-->
+            <version>8.1.4.170</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/DmJdbcDriver8.jar</systemPath>
+        </dependency>
+
 
         <!-- 连接池 -->
         <dependency>
